@@ -133,10 +133,13 @@ $switch-focus: 1px dotted $grey-light !default
 
 .switch[type="checkbox"]
 	outline: 0
-	user-select: none
 	display: inline-block
 	position: absolute
 	opacity: 0
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
 
 	&:focus
 		+ label
